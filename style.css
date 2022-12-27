@@ -1,0 +1,303 @@
+.main-header {
+    background-image: url(images/img1.jpg);
+    background-size: cover;
+    background-position:center;
+    min-height: 900px;
+    width: 100%;
+    cursor: pointer;
+}
+.user-view .background {
+    background-size: 100%;
+    background-position: initial;
+    min-height: 230px;
+    margin-top: 300px;
+    box-shadow: 0 0 10px rgb(190, 61, 100);
+}
+.main-header .cglogo {
+    min-height: 5px;
+    min-width: 5px;
+}
+.main-header h2 {
+    font-family: Brush Script MT;
+    color: white;
+    text-shadow: 0 0 10px rgb(149, 69, 180);
+    margin-top: 2px;
+    padding-top: 1px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.main-header h6 {
+    font-family: orbitron;
+    color: bisque;
+    margin-top: 2px;
+    text-decoration: overline;
+}
+.main-header h3 {
+    font-family: Calisto MT;
+    animation-name:blink-txt;
+    color: white;
+	-webkit-animation-name:blink-txt;
+	-moz-animation-name:blink-txt;
+	-o-animation-name:blink-txt;
+    -webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	-o-animation-duration:2s;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+	-o-animation-iteration-count:infinite;
+    }
+	
+    @-webkit-keyframes blink-txt {
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+    }
+	
+    @keyframes blink-txt {
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.main-header .column-paragraph {
+    font-size: x-large;
+    height: 100%;
+    background: linear-gradient(to left, rgb(190, 61, 100), rgba(184, 58, 223, 0));
+    margin-top: 30px;
+}
+.main-header .slides {
+    font-family: Orbitron;
+}
+.main-header .caption {
+    font-size: xx-large;
+    text-decoration:overline;
+    text-shadow: 0 0 10px white;
+}
+.main-header .column-paragraph {
+    font-family: MV Boli;
+    color: whitesmoke;
+    font-size: x-large;
+}
+.main-header .text-appearance {
+    font-family: MV Boli;
+    color: whitesmoke;
+}
+.section-index {
+    background-image:linear-gradient(to right,rgb(233, 93, 116) , rgb(219, 133, 219));
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+}
+.section-index .card-title-1, .card-title-2, .card-title-3 {
+    font-family: orbitron;
+}
+.section-index .card-rev-men, .card-rev-women, .card-rev-acc{
+    border-radius: 25px;
+    background-image: url(images/cg.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+.section-home {
+    background-image:linear-gradient(to right,rgb(233, 93, 116) , rgb(219, 133, 219));
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+}
+.section-home .card-title-1, .card-title-2, .card-title-3 {
+    font-family: orbitron;
+}
+.section-home .card-rev-men, .card-rev-women, .card-rev-acc{
+    border-radius: 25px;
+    background-image: url(images/cg.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+.section-about-index .about-info {
+    font-size: large;
+    color:rgb(192, 79, 79);
+}
+.section-about-home .about-info {
+    font-size: large;
+    color:rgb(192, 79, 79);
+}
+.index-footer .contact-list {
+    font-family: calibri;
+}
+.index-footer { 
+    background-color: rgba(169, 32, 211, 0.3);
+    background-image: url(images/cg.png);
+    background-position: center;
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.home-footer {
+    background-color: rgba(169, 32, 211, 0.3);
+    background-image: url(images/cg.png);
+    background-position: center;
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.home-footer .btn {
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.sale-footer {
+    background-color: rgba(169, 32, 211, 0.3);
+    background-image: url(images/cg.png);
+    background-position: center;
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.sale-footer .btn {
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.main-header-sale {
+    background: linear-gradient(to right,rgb(233, 93, 116) , rgb(219, 133, 219));
+    background-size: content;
+    position: initial;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.main-header-sale h2 {
+    font-family: Brush Script MT;
+    color: white;
+    text-shadow: 0 0 10px rgb(149, 69, 180);
+    margin-top: 2px;
+    padding-top: 1px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.main-header-sale h6 {
+    font-family: orbitron;
+    color: bisque;
+    margin-top: 2px;
+    text-decoration: overline;
+}
+.main-header-sale .slides {
+    background-position: initial;
+}
+.main-header-sale .logo-row {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.main-header-sale .mdiv1 {
+    color: aliceblue;
+    font-family: Arial Black;
+}
+.main-header-sale .mdiv2 {
+    color: rgb(189, 35, 189);
+    font-family: Arial Black;
+    text-shadow: 0 0 px white;
+}
+.main-header-sale .mdiv3 {
+    color: rgba(248, 5, 5, 0.774);
+    font-family: Arial Black;
+    text-shadow: 0 0 10px white;
+}
+.main-header-sale .mdiv4 {
+    color: bisque;
+    font-family: Arial Black;
+    text-shadow: 0 0 3px white;
+}
+.main-header .home-slider {
+    margin-top: 30px;
+    box-shadow: 0 0 10px white;
+}
+.section-sale-men-apparels {
+    background: linear-gradient(to right,rgb(233, 93, 116) , rgb(219, 133, 219));
+    background-size: cover;
+    position: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: Orbitron;
+    color: rgb(123, 12, 156);
+    text-shadow: 0 0 10px white;
+}
+.section-sale-men-apparels .z-depth-3 {
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(92, 7, 161);
+}
+.section-sale-men-apparels .card-content {
+    font-family: Calibri;
+}
+.section-sale-men-apparels .row.men-sale {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.section-sale-women-apparels {
+    background: linear-gradient(to left,rgb(233, 93, 116) , rgb(219, 133, 219));
+    background-size: cover;
+    position: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: Orbitron;
+    color: rgb(216, 10, 38);
+    text-shadow: 0 0 10px white;
+}
+.section-sale-women-apparels .z-depth-3 {
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(221, 11, 91);
+}
+.section-sale-women-apparels .card-content {
+    font-family: Calibri;
+}
+.section-sale-women-apparels .row.women-sale {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.section-sale-accessories {
+    background: linear-gradient(to right,rgb(226, 184, 191) , rgb(87, 73, 87));
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    font-family: Orbitron;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(240, 10, 87);
+}
+.section-sale-accessories .z-depth-3{
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(92, 7, 161);
+}
+.section-sale-accessories .caps-image {
+    margin: 0px;
+    padding: 0px;
+}
+.signup-form {
+    background-image: url(images/cglogo.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    color: rgb(80, 5, 129);
+}
+.signup-form-overlay {
+    background: rgba(36, 29, 36, 0.3);
+    margin-top : 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+.signup-form .registerbtn {
+    border-radius: 8px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.signup-body {
+    background: linear-gradient(to left,rgb(233, 93, 116) , rgb(219, 133, 219));
+}
+.modal-close {
+    border-radius: 50px;
+}
